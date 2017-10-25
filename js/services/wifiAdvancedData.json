@@ -1,0 +1,40 @@
+{"content":[
+  {
+		"h1": "What are the WiFi signals telling me?",
+		"description": "This is the WiFi signal indicator displayed on your phone’s status bar:",
+		"headerImage": {"src": "assets/img/header-images/wifi-signals.png", "alt": "WiFi Signals"},
+		"content": [{"copy": ["The more bars, the closer you are to the hotspot and the stronger the signal. A strong signal is needed for a good WiFi experience."], "copyCol": "8", "canvasId": "0", "canvasCol": "4"}, 
+					{"copy": ["You may still experience a poor connection with a strong signal indicator. Some factors that can affect your signal include:<ul><li>A large number of people connected to the same hotspot</li><li>Interference from another device</li><li>Objects between you and the hotspot that block your signal</li></ul>"], "canvasId": "1", "alignCopy":"pull-right"}]
+	  },
+	   {
+		"h1": "How can I make sure I get the<br> best Optimum WiFi experience?",
+		"headerImage": {"src": "assets/img/header-images/best-wifi-experience.png", "alt": "WiFi house floor plan"},
+		"content": [{"copy": ["When you’re away from home:<ul><li>Find an Optimum hotspot and get closer</li><li>If you’re having issues, turn WiFi off/on: this will help your device reconnect to the best signal available</li><li>Don’t use WiFi if you’re on the move - like in a car, bus or train</li><li>Register your device so it connects to Optimum’s WiFi automatically</li></ul>"], "canvasId": "2"},
+				   {"copy": ["When you’re at home:<ul><li>Hiding a router in a cabinet, closet or basement will degrade your experience</li><li>Make sure you’re connected to your home WiFi network, and not an Optimum WiFi hotspot</li></ul>"], "canvasCol": "12", "canvasId": "3", "alignCopy":"pull-right"}]
+	  },
+	  {
+		"h1": "How do I connect to an Optimum WiFi hotspot?",
+		"headerImage": {"src": "assets/img/header-images/connect-wifi-symbol.png", "alt": "WiFi Symbol"},
+		"description": "Optimum customers can connect to Optimum WiFi on the go.",
+		"content": [{"copy": ["Seamlessly connect to Optimum WiFi on the go:<ol><li>Go to your device settings to turn on WiFi</li><li>Select 'optimumwifi'</li><li>Open a web browser and sign in with your Optimum ID and password</li></ol>"], "copyCol": "12"},
+				   {"copy": ["<div><span class='did-you-know'></span><span>You can select 'Automatic Sign-In' to always connect to Optimum WiFi when it is available.</span></div>"], "copyCol": "7", "canvasId": "4", "canvasCol": "12", "alignCopy":"pull-right"}
+				   ]
+	  },
+	  {
+		"h1": "How can I ensure I am using WiFi securely?",
+		"content": [{"copy": ["Whether you're at home or on the go, always make sure you follow these best security practices:"], "canvasId": "5", "alignCopy":"pull-right"},
+			{"copy": ["Keep your browser up to date, and use an encrypted email service such as Optimum Email."], "copyCol": "7", "copColOffset":"col-md-offset-2", "staticImg":{"src": "assets/img/animation/circle-email-lock.png", "alt":"Email", "class":"circle-icon man"}, "canvasCol": "2"},
+				   {"copy": ["Use only secure websites and always log out after visiting."], "copyCol": "10", "staticImg":{"src": "assets/img/animation/circle-secure-website.png", "alt":"secure websites https", "class":"circle-icon o-web"}, "canvasCol": "2", "alignCopy":"pull-right", "alignGraphics":"pull-right"},
+				   {"copy": ["Use firewall and anti-virus software and turn off file sharing."], "copyCol": "7", "copColOffset":"col-md-offset-2", "staticImg":{"src": "assets/img/animation/circle-anti-virus.png", "alt":"McAfee: Antivirus Software", "class":"circle-icon wifi"}, "canvasCol": "2"}]
+	  },
+	  	{
+		"h1": "Then you’re all set!",
+		"headerImage": {"src": "assets/img/header-images/thumbs-up.png", "alt": "Thumbs up"},
+		"content": [{"copy": ["Still have questions?<br> Visit <a href='https://optimum.net/support'>optimum.net/support</a>.<br> We're happy to help."], "copyCol": "5", "canvasId": "6", "canvasCol": "12"}
+				   ]
+	  }
+
+],
+"hero": "Get more<br> out of your WiFi",
+"footer":{"text":"To learn more<br> about Optimum WiFi,", "btnUrl":"https://www.optimum.net/internet/hotspots"}
+}

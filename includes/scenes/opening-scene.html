@@ -1,0 +1,6 @@
+
+<div class="container">
+<h1 data-ng-bind-html="wifiEducationData.hero"></h1>
+</div>
+ <iframe id="hero-animation" data-ng-if="!$root.isMobile" src="{{dir.scenes + levelName + '/hero/hero.html'}}" width="100%" height="535" frameborder="0" scrolling="no" seamless></iframe>
+ <img data-ng-if="$root.isMobile" data-ng-src="{{'assets/img/mobile/' + levelName + '/hero.png'}}" alt="Welcome to the wonders of WiFi"/>

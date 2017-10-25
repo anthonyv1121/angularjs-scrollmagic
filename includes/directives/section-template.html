@@ -1,0 +1,33 @@
+<section id="{{ref + '-' + index}}" class="wifi-section {{ref | lowercase}}">
+ <header>
+     <div class="container">
+       <div class="row">
+            <div data-ng-class="!!data.headerImage ? 'col-md-9' : 'col-xs-12'">
+                <h1 data-ng-bind-html="data.h1"></h1>
+                <p data-ng-if="data.description">{{data.description}}</p>
+            </div>
+            <div class="col-sm-3 hidden-sm hidden-xs" data-ng-if="data.headerImage"><img data-ng-src="{{data.headerImage.src}}" alt="{{data.headerImage.alt}}" class="img-responsive"/></div>
+   		 </div>
+   		</div>
+    </header>
+
+     <div class="container info">
+   		<div class="content" data-ng-class="data.layout">
+          	<div class="row" data-ng-repeat="row in data.content">
+            <div class="col-md-{{row.copyCol || '6'}} copy-col" data-ng-class="[row.alignCopy, row.copColOffset]">
+                    <div class="copy-blurbs" data-ng-repeat="copy in row.copy">
+                    <div data-ng-bind-html = "copy" class="h2"></div><!--<span>{{$root.isMobile}}</span>-->
+                    </div>
+                </div>
+      		<div data-ng-if="row.canvasId || row.staticImg" class="col-md-{{row.canvasCol || '6'}} graphics-col" data-ng-class="row.alignGraphics">
+            	<!--Display canvas elements on mobile only-->
+				<createjs data-ng-if="row.canvasId && !$root.isMobile" id="{{row.canvasId}}"></createjs>
+                <!--Show static images for rows without canvas elements-->
+           	    <img data-ng-if="row.staticImg" data-ng-src="{{row.staticImg.src}}" alt="{{row.staticImg.alt}}" class="{{row.staticImg.class}}"/>
+               <!-- Display static images on mobile-->
+                <img data-ng-if="$root.isMobile && !row.staticImg" data-ng-src="{{'assets/img/mobile/' + ref + '/' + row.canvasId + '.png'}}" alt=""/>
+           </div>
+            </div>
+         </div>
+      </div>
+</section>

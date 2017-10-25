@@ -1,0 +1,54 @@
+{"content":[
+  {
+		"h1": "So, what is WiFi and why should I use it?",
+		"description": "WiFi simply is a wireless technology that lets you connect your mobile phone, tablet or laptop to the internet almost anywhere, without the need for a costly mobile data plan.",
+		"headerImage": {"src": "assets/img/header-images/what-is-wifi.png", "alt": "Phone, Tablet and Laptop With Optimum Logo"},
+		"content": [{"copy": ["Connect to everything online, like videos, email, social sites, etc., with unlimited access to the internet."], "canvasId": "0", "alignCopy":"pull-right"}, 
+					{"copy": ["Stay connected while you visit your favorite places with your WiFi enabled devices."], "canvasId": "1"}, 
+					{"copy": ["<div><span class='did-you-know'></span><span>WiFi and cellular services are both important. You use cellular service when you're on the move and you use WiFi when you’re at a coffee shop, store or other locations that you visit.</span></div>"], "copyCol": "12"}]
+	  },
+	   {
+		"h1": "What is the difference between Optimum’s WiFi in and outside my home?",
+		"headerImage": {"src": "assets/img/header-images/wifi-in-out.png", "alt": "WiFi in Home vs WiFi outside"},
+		"layout": "stacked-columns",
+		"content": [{"copy": ["Your home WiFi is a private, secure way to connect to your router from Optimum. It is important that you're always connected to your home network and not the 'optimumwifi' network when you’re home."],"copyCol": "12", "canvasId": "2", "canvasCol": "12"},
+				   {"copy": ["Optimum’s WiFi outside your home is a professional-grade connection to the internet when you're on the go, with 24 hour support available exclusively to Optimum Online customers."], "copyCol": "12", "canvasId": "3", "canvasCol": "12"}]
+	  },
+	   {
+		"h1": "What is a hotspot?",
+		"description": "A hotspot is simply a place where you can connect to WiFi.",
+		"headerImage": {"src": "assets/img/header-images/what-is-hotspot.png", "alt": "Hotspot Location Map"},
+		"content": [{"copy": ["You can find hotspots in places like restaurants, stores, NJ Transit stations, city parks and more."], "canvasId": "4"},
+				   {"copy": ["Optimum has over 1.5 million hotspots all over the Tri-State area. Optimum Online customers connect to Optimum WiFi for FREE."], "canvasId": "5", "alignCopy":"pull-right"}]
+	  },
+	   {
+		"h1": "How do I find an Optimum WiFi hotspot?",
+		"description": "Connect to over 1.5 million Optimum WiFi hotspots all around the Tri-State area.",
+		"headerImage": {"src": "assets/img/header-images/binoculars.png", "alt": "Binoculars with WiFi Symbols"},
+		"content": [{"copy": ["Optimum WiFi hotspots can be found in many downtown areas, stores, restaurants, NJ Transit stations, city parks, even Coney Island!", "If a business or friend's house has Optimum WiFi, then you found a hotspot."], "canvasId": "6", "alignCopy":"pull-right"},
+				   {"copy": ["Download the<br> <a href='https://www.optimum.net/internet/hotspots'>Optimum WiFi Hotspot Finder App</a><br> for your mobile device."], "canvasId": "7"}]
+	  },
+	   {
+		"h1": "What do I need<br> to connect to Optimum WiFi?",
+		"headerImage": {"src": "assets/img/header-images/wifi-button.png", "alt": "WiFi button"},
+		"content": [{"copy": ["To connect to Optimum WiFi you need to be an Optimum Online customer,"], "copyCol": "7", "copColOffset":"col-md-offset-2", "staticImg":{"src": "assets/img/animation/circle-guy-glasses.png", "alt":"Man", "class":"circle-icon man"}, "canvasCol": "2"},
+				   {"copy": ["have an <a href='https://www.optimum.net/profile/create-optimum-id'>Optimum ID and password</a>,"], "copyCol": "10", "staticImg":{"src": "assets/img/animation/circle-optimum-website.png", "alt":"Optimum in web browser", "class":"circle-icon o-web"}, "canvasCol": "2", "alignCopy":"pull-right", "alignGraphics":"pull-right"},
+				   {"copy": ["and be within the range of an Optimum WiFi hotspot or your router from Optimum."], "copyCol": "7", "copColOffset":"col-md-offset-2", "staticImg":{"src": "assets/img/animation/circle-wifi.png", "alt":"WiFi Symbol", "class":"circle-icon wifi"}, "canvasCol": "2"}]
+	  },
+	{
+		"h1": "How do I connect to an Optimum WiFi hotspot?",
+		"description": "Optimum customers can connect to Optimum WiFi outside their home.",
+		"content": [{"copy": ["Seamlessly connect to Optimum WiFi on the go:<ol><li>Go to your device settings to turn on WiFi</li><li>Select 'optimumwifi'</li><li>Open a web browser and sign in with your Optimum ID and password</li></ol>"], "copyCol": "12"},
+				   {"copy": ["<div><span class='did-you-know'></span><span>You can select 'Automatic Sign-In' to always connect to Optimum WiFi when it is available.</span></div>"], "copyCol": "7", "canvasId": "8", "canvasCol": "12", "alignCopy":"pull-right"}
+				   ]
+	  },
+	  	{
+		"h1": "Then you’re all set!",
+		"headerImage": {"src": "assets/img/header-images/thumbs-up.png", "alt": "Thumbs up"},
+		"content": [{"copy": ["Still have questions?<br> Visit <a href='https://optimum.net/support'>optimum.net/support</a>.<br> We're happy to help."], "copyCol": "5", "canvasId": "9", "canvasCol": "12"}
+				   ]
+	  }
+],
+"hero": "WiFi: What you<br> need to know.",
+"footer":{"text":"To find out more ways to optimize your Optimum WiFi experience,", "btnUrl":"advanced.html"}
+}

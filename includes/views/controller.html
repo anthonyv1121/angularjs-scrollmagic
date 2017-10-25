@@ -1,0 +1,13 @@
+<div class="loader" data-ng-include="dir.elements + dir.loader"></div>
+<nav class="navbar" role="navigation">
+ <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" data-ng-include="dir.elements + dir.logo"></a>
+        </div>
+      </div>
+</nav> 
+<div class="main-content" data-scroll-magic>
+	<div class="jumbotron {{levelName}}" data-ng-include="dir.scenes + '/opening-scene.html'" id="opening-scene"></div>
+	<section-template data-ng-repeat ="section in wifiEducationData.content" data-data="section" data-index="{{$index+1}}" data-ref="{{levelName}}" data-sign="{{dir.elements + dir.sign}}" data-ng-class-odd="'odd'"></section-template>
+	<footer data-ng-include="dir.elements + dir.footer"></footer>
+</div> 
